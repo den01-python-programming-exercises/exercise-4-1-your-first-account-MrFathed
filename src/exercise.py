@@ -1,6 +1,8 @@
 def main():
     #write your code below this line
-    print("")
+    my_account = Account("My account", 100)
+    my_account.deposit(20)
+    print(my_account)
 
 # Don't edit below this line - this setup is required for testing
 if __name__ == '__main__':
